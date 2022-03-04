@@ -16,4 +16,15 @@
 ###### 4. Random Forest
 ## 模型評估
 #### 以此次任務來說，recall會比precision還重要一些，因為預測手機價格範圍應是求正確，而recall這個評估標準是如果在該預測為正樣本中卻預測其為負樣本，也就是說如果本該預測其為範圍1，卻預測其為4，因此應該要較重視recall的值，希望該值能愈大愈好，代表其預測錯誤的機率愈低。(Decision Tree、Random Forest無法用confusion matrix來評估，查網路並自己試了很久，都會報錯，不好意思TT)
-#### 透過查看confusion matrix的recall，並且比較總共7個分類器在各分類的recall值，會發現SVM皆預測測試集的目標分類為1，其中線性SVC數值最大，表示其在SVM中效果最好，也比KNN的數值還要大，因此我認為在現有可以比較的模型中線性SVC效果最好。
+###### 1. 線性SVC
+![image](https://user-images.githubusercontent.com/68068287/156771982-58aecbe7-a878-43cf-b31a-5deacd9d25dc.png)
+###### 2. 線性核的SVC
+![image](https://user-images.githubusercontent.com/68068287/156772076-3c55df27-7c38-44b2-9297-4909ce8de7e8.png)
+###### 3. 多項的非線性SVC
+![image](https://user-images.githubusercontent.com/68068287/156772115-d80e1b9a-b614-4110-acb4-59ddb5a66c13.png)
+###### 4. 高斯核的非線性分類器
+![image](https://user-images.githubusercontent.com/68068287/156772151-7fab2ade-740c-418c-890f-a9ee6466979f.png)
+###### 5. KNN
+![image](https://user-images.githubusercontent.com/68068287/156772271-b0e3d49d-dce9-4a65-bffe-32a9bc21e280.png)
+###### 6. Decision Tree
+###### 7. Random Forest
