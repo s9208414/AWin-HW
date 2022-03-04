@@ -17,8 +17,10 @@
 ## 模型評估
 #### 以此次任務來說，recall會比precision還重要一些，因為預測手機價格範圍應是求正確，而recall這個評估標準是如果在該預測為正樣本中卻預測其為負樣本，也就是說如果本該預測其為範圍1，卻預測其為4，因此應該要較重視recall的值，希望該值能愈大愈好，代表其預測錯誤的機率愈低。(Decision Tree、Random Forest無法用confusion matrix來評估，查網路並自己試了很久，都會報錯，不好意思TT)
 ###### 1. 線性SVC
+###### 針對價格0的precison為42/42+3+0+0= 42/45,recall為42/42+0+0+0= 1,F1-score為2/(45/42+1)= 86/45
 ![image](https://user-images.githubusercontent.com/68068287/156771982-58aecbe7-a878-43cf-b31a-5deacd9d25dc.png)
 ###### 2. 線性核的SVC
+###### 針對價格0的precison為42/42+3+0+0,recall為42/42+0+0+0
 ![image](https://user-images.githubusercontent.com/68068287/156772076-3c55df27-7c38-44b2-9297-4909ce8de7e8.png)
 ###### 3. 多項的非線性SVC
 ![image](https://user-images.githubusercontent.com/68068287/156772115-d80e1b9a-b614-4110-acb4-59ddb5a66c13.png)
