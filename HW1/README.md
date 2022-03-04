@@ -23,10 +23,13 @@
 ###### 針對價格0的precison為41/41+1+0+0= 41/42,recall為41/41+1+0+0= 41/42,F1-score為2/(42/41+42/41)= 82/84
 ![image](https://user-images.githubusercontent.com/68068287/156772076-3c55df27-7c38-44b2-9297-4909ce8de7e8.png)
 ###### 3. 多項的非線性SVC
+###### 針對價格0的precison為37/37+6+0+0= 37/43,recall為37/37+5+0+0= 37/42,F1-score為2/(43/37+42/37)= 74/85
 ![image](https://user-images.githubusercontent.com/68068287/156772115-d80e1b9a-b614-4110-acb4-59ddb5a66c13.png)
 ###### 4. 高斯核的非線性分類器
+###### 針對價格0的precison為34/34+7+0+0= 34/41,recall為34/34+8+0+0= 34/42,F1-score為2/(41/34+42/34)= 68/83
 ![image](https://user-images.githubusercontent.com/68068287/156772151-7fab2ade-740c-418c-890f-a9ee6466979f.png)
 ###### 5. KNN
+###### 針對價格0的precison為29/29+29+5+2= 29/65,recall為29/29+12+0+1= 29/42,F1-score為2/(65/29+42/29)= 58/107
 ![image](https://user-images.githubusercontent.com/68068287/156772271-b0e3d49d-dce9-4a65-bffe-32a9bc21e280.png)
 ###### 6. Decision Tree
 ###### 7. Random Forest
