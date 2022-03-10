@@ -46,7 +46,7 @@
 ###### recall為42/42+0+0+0= 1
 ###### F1-score為2/(45/42+(1))= 84/87
 ###### accuracy為42+28+34+60/42+28+34+60+3+0+0+0+0+0= 164/167
-![image](https://user-images.githubusercontent.com/68068287/157689083-63b8a741-4379-432f-ac88-522705d54b02.png)
+![image](https://user-images.githubusercontent.com/68068287/157707523-02e9f0b9-fc36-4ea0-8b11-a8e7641c802d.png)
 
 ![image](https://user-images.githubusercontent.com/68068287/156771982-58aecbe7-a878-43cf-b31a-5deacd9d25dc.png)
 
@@ -55,7 +55,7 @@
 ###### recall為41/41+1+0+0= 41/42
 ###### F1-score為2/(42/41+42/41)= 82/84
 ###### accuracy為41+48+44+60/41+48+44+60+1+0+0+1+0+0= 193/195
-![image](https://user-images.githubusercontent.com/68068287/157690300-1882c32b-8739-4d6e-bcb3-9487f98bdb22.png)
+![image](https://user-images.githubusercontent.com/68068287/157707588-2b9e0718-6440-4a0d-842d-ac1c3afe80d3.png)
 
 ![image](https://user-images.githubusercontent.com/68068287/156772076-3c55df27-7c38-44b2-9297-4909ce8de7e8.png)
 
@@ -64,7 +64,7 @@
 ###### recall為37/37+5+0+0= 37/42
 ###### F1-score為2/(43/37+42/37)= 74/85
 ###### accuracy為37+31+36+48/37+31+36+48+6+0+0+5+0+0= 152/163
-![image](https://user-images.githubusercontent.com/68068287/157690388-b098ebaf-0daf-4693-a374-9f5f00ea9b90.png)
+![image](https://user-images.githubusercontent.com/68068287/157707647-7a2d91cc-5380-4a5f-a167-9eb238933e7f.png)
 
 ![image](https://user-images.githubusercontent.com/68068287/156772115-d80e1b9a-b614-4110-acb4-59ddb5a66c13.png)
 
@@ -73,7 +73,7 @@
 ###### recall為34/34+8+0+0= 34/42
 ###### F1-score為2/(41/34+42/34)= 68/83
 ###### accuracy為34+27+34+46/34+27+34+46+7+0+0+8+0+0= 141/156
-![image](https://user-images.githubusercontent.com/68068287/157690478-5015b096-9fb7-488c-b85b-bf3d6bb4e5b0.png)
+![image](https://user-images.githubusercontent.com/68068287/157707697-6daea74e-d6af-4cda-90f3-2970e0dd46c6.png)
 
 ![image](https://user-images.githubusercontent.com/68068287/156772151-7fab2ade-740c-418c-890f-a9ee6466979f.png)
 
@@ -82,7 +82,7 @@
 ###### recall為29/29+12+0+1= 29/42
 ###### F1-score為2/(65/29+42/29)= 58/107
 ###### accuracy為29+16+15+29/29+16+15+29+29+5+2+12+0+1= 89/109
-![image](https://user-images.githubusercontent.com/68068287/157690547-964863f3-e148-4d32-8347-f69213109005.png)
+![image](https://user-images.githubusercontent.com/68068287/157707766-24e7dbee-6865-4448-b41e-b22b7d2a2abe.png)
 
 ![image](https://user-images.githubusercontent.com/68068287/156772271-b0e3d49d-dce9-4a65-bffe-32a9bc21e280.png)
 
@@ -91,7 +91,7 @@
 ###### recall為39/39+3+0+0= 13/14
 ###### F1-score為2/(14/13+14/13)= 13/14
 ###### accuracy為39+39+39+55/39+39+39+55+3+0+0+3+0+0= 86/89
-![image](https://user-images.githubusercontent.com/68068287/157690620-df657742-8fa6-4638-a280-7b1cb4ba4146.png)
+![image](https://user-images.githubusercontent.com/68068287/157707836-ad1f8d7b-9851-4ea9-b3d9-24c87f688bc3.png)
 
 ![image](https://user-images.githubusercontent.com/68068287/157248278-b59a353d-b951-498d-9040-2e187251d34b.png)
 ###### 隨機森林
@@ -99,7 +99,7 @@
 ###### recall為39/39+3+0+0= 13/14
 ###### F1-score為2/(14/13+14/13)= 13/14
 ###### accuracy為39+39+39+55/39+39+39+55+3+0+0+3+0+0= 86/89
-![image](https://user-images.githubusercontent.com/68068287/157690853-77f37cf7-b32c-4989-878d-e8f4173a8518.png)
+![image](https://user-images.githubusercontent.com/68068287/157707948-bb8de03a-b3ea-47b4-84fd-c447b06124e3.png)
 
 ![image](https://user-images.githubusercontent.com/68068287/157248329-5ee6a0c5-b58e-4332-b710-ac1e1da2967d.png)
 
