@@ -39,13 +39,15 @@
 #### random forest
 ###### 隨機森林是由好幾個決策樹組成，每一個決策樹可以共同負擔原先只有一個樹的分類責任，所以能把樹的深度設淺一點來讓模型相較於決策樹不容易過擬合，又可以達到好的分類效果。隨機森林的建立是透過隨機分類訓練資料以及訓練的特徵給每一個樹來將資料擬合至模型。目標的預測是採多個樹的多數決投票制進行分類。
 ## 模型評估
-#### 以此次專案來說，recall會比precision還重要一些，因為預測手機價格範圍應是求正確，而recall這個評估標準是如果在該預測為正樣本中卻預測其為負樣本，也就是說如果本該預測其為範圍1，卻預測其為4，因此應該要較重視recall的值，希望該值能愈大愈好，代表其預測錯誤的機率愈低。假設本專案皆用預測手機價格範圍為0來評估模型
+#### 以此次專案來說，recall會比precision還重要一些，因為預測手機價格範圍應是求正確，而recall這個評估標準是如果在該預測為正樣本中卻預測其為負樣本，也就是說如果本該預測其為範圍1，卻預測其為4，因此應該要較重視recall的值，希望該值能愈大愈好，代表其預測錯誤的機率愈低。下面的評估指標之文字部分的正樣本是價格範圍為0，而圖片部分是採用參數average='macro'，期望輸出不受各類別樣本數影響。
 
 ##### 線性分類器
 ###### precison為42/42+3+0+0= 42/45
 ###### recall為42/42+0+0+0= 1
 ###### F1-score為2/(45/42+(1))= 84/87
 ###### accuracy為42+28+34+60/42+28+34+60+3+0+0+0+0+0= 164/167
+![image](https://user-images.githubusercontent.com/68068287/157689083-63b8a741-4379-432f-ac88-522705d54b02.png)
+
 ![image](https://user-images.githubusercontent.com/68068287/156771982-58aecbe7-a878-43cf-b31a-5deacd9d25dc.png)
 
 ##### 線性核的分類器
@@ -53,6 +55,8 @@
 ###### recall為41/41+1+0+0= 41/42
 ###### F1-score為2/(42/41+42/41)= 82/84
 ###### accuracy為41+48+44+60/41+48+44+60+1+0+0+1+0+0= 193/195
+![image](https://user-images.githubusercontent.com/68068287/157690300-1882c32b-8739-4d6e-bcb3-9487f98bdb22.png)
+
 ![image](https://user-images.githubusercontent.com/68068287/156772076-3c55df27-7c38-44b2-9297-4909ce8de7e8.png)
 
 ##### 多項式轉換的非線性分類器
@@ -60,6 +64,8 @@
 ###### recall為37/37+5+0+0= 37/42
 ###### F1-score為2/(43/37+42/37)= 74/85
 ###### accuracy為37+31+36+48/37+31+36+48+6+0+0+5+0+0= 152/163
+![image](https://user-images.githubusercontent.com/68068287/157690388-b098ebaf-0daf-4693-a374-9f5f00ea9b90.png)
+
 ![image](https://user-images.githubusercontent.com/68068287/156772115-d80e1b9a-b614-4110-acb4-59ddb5a66c13.png)
 
 ##### 高斯核的非線性分類器
@@ -67,6 +73,8 @@
 ###### recall為34/34+8+0+0= 34/42
 ###### F1-score為2/(41/34+42/34)= 68/83
 ###### accuracy為34+27+34+46/34+27+34+46+7+0+0+8+0+0= 141/156
+![image](https://user-images.githubusercontent.com/68068287/157690478-5015b096-9fb7-488c-b85b-bf3d6bb4e5b0.png)
+
 ![image](https://user-images.githubusercontent.com/68068287/156772151-7fab2ade-740c-418c-890f-a9ee6466979f.png)
 
 ##### 近鄰演算法
@@ -74,6 +82,8 @@
 ###### recall為29/29+12+0+1= 29/42
 ###### F1-score為2/(65/29+42/29)= 58/107
 ###### accuracy為29+16+15+29/29+16+15+29+29+5+2+12+0+1= 89/109
+![image](https://user-images.githubusercontent.com/68068287/157690547-964863f3-e148-4d32-8347-f69213109005.png)
+
 ![image](https://user-images.githubusercontent.com/68068287/156772271-b0e3d49d-dce9-4a65-bffe-32a9bc21e280.png)
 
 ###### 決策樹
@@ -81,12 +91,16 @@
 ###### recall為39/39+3+0+0= 13/14
 ###### F1-score為2/(14/13+14/13)= 13/14
 ###### accuracy為39+39+39+55/39+39+39+55+3+0+0+3+0+0= 86/89
+![image](https://user-images.githubusercontent.com/68068287/157690620-df657742-8fa6-4638-a280-7b1cb4ba4146.png)
+
 ![image](https://user-images.githubusercontent.com/68068287/157248278-b59a353d-b951-498d-9040-2e187251d34b.png)
 ###### 隨機森林
 ###### precison為39/39+3+0+0= 13/14
 ###### recall為39/39+3+0+0= 13/14
 ###### F1-score為2/(14/13+14/13)= 13/14
 ###### accuracy為39+39+39+55/39+39+39+55+3+0+0+3+0+0= 86/89
+![image](https://user-images.githubusercontent.com/68068287/157690853-77f37cf7-b32c-4989-878d-e8f4173a8518.png)
+
 ![image](https://user-images.githubusercontent.com/68068287/157248329-5ee6a0c5-b58e-4332-b710-ac1e1da2967d.png)
 
 ## 結語
